@@ -23,6 +23,22 @@ public class StringApp {
         System.out.println(stringFromCharArray);
         String stringFromByteArray = new String(byteArrayDefaultEncoding);
         System.out.println(stringFromByteArray);
+        /* concat String*/
+        String stringPlus = "part 1" + null;
+        //String stringConcat = "part1".concat(null);  // error NullPointerException
+        String stringConcat = "part1".concat("3");
+        System.out.println(stringPlus);
+        System.out.println(stringConcat);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         System.out.println("Done ...");
     }
 }
