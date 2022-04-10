@@ -9,4 +9,8 @@ public enum Day {
     SATURDAY,
     SUNDAY;
     
+    @Override
+    public String toString() {
+        return name().replace("_", "").toLowerCase();
+    }
 }
