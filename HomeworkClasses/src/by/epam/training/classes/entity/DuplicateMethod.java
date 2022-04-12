@@ -1,8 +1,5 @@
 package by.epam.training.classes.entity;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 public class DuplicateMethod {
     
     /* compile error, duplicate methods

@@ -1,7 +1,5 @@
 package by.epam.training.classes.entity;
 
-import java.io.IOException;
-
 public class Entity {
     
     public void doAction(int value) {
